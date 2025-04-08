@@ -1,0 +1,17 @@
+person names
+organizations
+locations
+medical codes
+time expressions
+quantities
+monetary values
+percentages
+facility
+geopolitical entity
+nationalities
+product
+event
+work of art
+law
+quantity
+ordinal

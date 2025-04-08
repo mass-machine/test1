@@ -25,4 +25,4 @@ pip install -r requirement.txt
     bash run_main.sh
     ```
 ## Case study
-![case study](case study.jpg)
+![case study](casestudy.png)

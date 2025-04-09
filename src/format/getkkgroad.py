@@ -16,7 +16,7 @@ def get_KGrelation_prompt(args,relation,element):
 def Repeatremoval(args,relation):
     prompt="Please optimize these reasoning paths and display the optimization results \n Relations path:"+relation
     prompt="""
-    Please optimize the path length for paths longer than 10 based on the given paths, with the following requirements
+    Please optimize the path length for paths longer than 10 based on the given paths,Each word represents a unit of length, with the following requirements
     1.Redundancy Removal: Eliminating duplicate or semantically similar nodes to streamline paths.
         How to do: Remove duplicate nodes or words with similar meanings.
             • E.g.: "A→B→B→C" → Simplify to "A→B→C"

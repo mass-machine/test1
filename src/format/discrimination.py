@@ -9,6 +9,11 @@ Every relationship stated as a triple: (E_A, E_B, Relation). \n'''
 
 score_criteria="""
 Scoring criteria
+
+Score 10:
+Entity: Dominant presence, appears pervasively across context.
+Relationship: Absolutely certain, explicit and deeply integrated in the text, no inference needed.
+
 Score 9:
 Entity: Very frequently appears, extremely relevant.
 Relationship: Clear and direct, strongly supported by context.

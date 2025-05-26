@@ -4,15 +4,11 @@ import logging
 # from config import args
 prompt_prefix = '''Given some triplets, please rate them based on contextual semantics. 
 Score the confidence level of each relationship.
-The confidence score ranges from 0 to 10, where a higher score indicates a higher likelihood of the relationship being correct.
+The confidence score ranges from 1 to 9, where a higher score indicates a higher likelihood of the relationship being correct.
 Every relationship stated as a triple: (E_A, E_B, Relation). \n'''
 
 score_criteria="""
 Scoring criteria
-
-Score 10:
-Entity: Dominant presence, appears pervasively across context.
-Relationship: Absolutely certain, explicit and deeply integrated in the text, no inference needed.
 
 Score 9:
 Entity: Very frequently appears, extremely relevant.

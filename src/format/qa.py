@@ -2,7 +2,7 @@ import json
 import logging
 
 # from config import args
-prompt_prefix = '''Given a sentence, all entities and all relationships within the sentence. 
+prompt_prefix = '''Given a context, all entities and all relationships within the sentence. 
 Answering the question.
 Every relationship stated as a triple: (E_A, E_B, Relation)\nSentence: '''
 

@@ -45,6 +45,6 @@ def kganswerprompt(args,relation,element):
     return prompt
 
 def Dual_threshold_Filtering(args,high_relation,low_relation,middle_relation,element):
-    prompt_suffix="Now there are high score triples and low score triples here respectively. Please analyze the sentence based on the high score triples and low score triples, and determine whether to extract some triples with intermediate scores and put them into the high score triples.\n"
+    prompt_suffix="Now there are high score triples and low score triples here respectively. Please analyze the context based on the high score triples and low score triples, and determine whether to extract some triples with intermediate scores and put them into the high score triples.\n"
     prompt=(prompt_suffix+"there are high score triples.\n"+high_relation+"\nthere are low score triples.\n"+low_relation+"\nthere are middle score triples.\n"+middle_relation+"\nPlease extract the important middle score triplets according to the previous requirements.Every relationship stated return as a triple: (E_A, E_B, Relation),don't take the score")
     return prompt

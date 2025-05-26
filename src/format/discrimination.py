@@ -46,7 +46,7 @@ Score 1:
 Entity: Not present, unrelated.
 Relationship: No connection to context.
 
-\nSententence:
+\nContext:
 """
 
 prompt_suffix = '''\Scores: '''

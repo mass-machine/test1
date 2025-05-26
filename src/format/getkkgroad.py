@@ -5,7 +5,7 @@ def get_KGrelation_prompt(args,relation,element):
     prompt_prefix="""Given a sentence, and hign value relationships within the sentence. 
     You need to generate one or more reasoning paths based on these relationships. Examples of reasoning paths are as follows.
     """
-    prompt_prefix1 = """Given a sentence, and hign value relationships within the sentence. 
+    prompt_prefix1 = """Given a context, and hign value relationships within the sentence. 
     You need to generate one or up to five reasoning paths based on these relationships. An example of a reasoning path is as follows.
     """
 
